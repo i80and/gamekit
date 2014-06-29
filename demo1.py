@@ -26,6 +26,7 @@ class Skeleton(gamekit.MovingThing):
 
 class Game(gamekit.Game):
     def __init__(self):
+        gamekit.Game.__init__(self)
         self.i = 0
         self.dir = 1
 
