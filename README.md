@@ -35,4 +35,4 @@ defined in your subclass:
 
 Examples
 ========
-See the `examples/` directory for different demonstrations of how to use GameKit.
+See `demo1.py` for a demonstration of how to use GameKit.
