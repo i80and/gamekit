@@ -1,8 +1,9 @@
 GameKit
 =======
-GameKit is a miniature graphics library for Python with no dependencies.  This
-may be useful for getting started with a project quickly with no fuss, or if you
-want to deploy onto systems without having to ship dependencies.
+GameKit is a miniature graphics library for Python with no dependencies, outside
+of an intact (including tkinter) Python installation.  This may be useful for
+getting started with a project quickly with no fuss, or if you want to deploy
+onto systems without having to ship dependencies.
 
 Mostly, it's just a test to see how capable Tkinter is out-of-the-box.  The
 answer is: not very, but you can fudge it if you're OK with dog-slow performance,
@@ -10,6 +11,12 @@ no alpha channel (bitmask transparency is OK), and just using GIF files.
 
 Don't expect tests or real documentation.  The code is very small, at least,
 so there isn't much going on.
+
+Prerequisites
+=============
+Technically none other than Python and a working graphics system.  On Debian and
+Ubuntu, you may have to execute
+  $ sudo apt-get install python3-tk
 
 Documentation
 =============
